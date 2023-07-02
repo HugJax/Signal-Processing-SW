@@ -8,11 +8,6 @@ import java.util.GregorianCalendar;
 import java.util.Locale;
 
 
-/**
- * Date management in project MTB
- * @author lloretjc
- *
- */
 public class Date extends GregorianCalendar {
 	
 
@@ -58,8 +53,8 @@ public class Date extends GregorianCalendar {
 	
 	/**
 	 * method to update this using a string in date format  
-	 * @param stringDate, accepted formats are yyyy:mm:dd:hh:mm:ss:mmm (7 int fields) or  yyyy:mm:dd:hh:mm:ss:mmm:µµµ (8 int fields)
-	 * or yyyy-mm-dd-hh-mm-ss:mmm (7 int fields) or  yyyy-mm-dd-hh-mm-ss-mmm-µµµ
+	 * @param stringDate, accepted formats are yyyy:mm:dd:hh:mm:ss:mmm (7 int fields) or  yyyy:mm:dd:hh:mm:ss:mmm:ÂµÂµÂµ (8 int fields)
+	 * or yyyy-mm-dd-hh-mm-ss:mmm (7 int fields) or  yyyy-mm-dd-hh-mm-ss-mmm-ÂµÂµÂµ
 	 * month ranges from 1 to 12
 	 * hour ranges from Oh to 23h
 	 * @return true iff stringDate is of a correct format
