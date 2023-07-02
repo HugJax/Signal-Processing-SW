@@ -1,0 +1,8 @@
+Saving name: 	test_bis_MTB-2
+Start Recording Date: 	2022-06-03
+Start Recording Time: 	9:20:49
+Saving Duration: 	00:30:00
+Minimum Value: 	2.5422103001712033E-8
+Maximum Value: 	0.06133737728814359
+Mean Value: 	0.011918403208255768
+Area Value: 	18.789274099554607
