@@ -40,7 +40,7 @@ public class Main {
             // gestion des cycles
             //samples.addAll(cycle.createSamples(saving.getProcessedSignal()));
 
-            // écriture du fichier prétraité au format MTB-2
+            // écriture du fichier prétraité
             SignalFile txtSignalFile = SignalFile.createSignalFile(directory, saving.getSavingName(), "txtFile");
             txtSignalFile.write(saving.getProcessedSignal(), Signal.SignalEnum.PROCESSED);
 
